@@ -1,3 +1,22 @@
+- Rodar o comando: ```docker-compose up -d``` na pasta docker depois acessar http://localhost:8081/alunos
+- Adicionei devtools e swagger ao projeto: http://localhost:8081/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+
+- Parar container: ```docker-compose down```
+
+- Listar containers em execução:  ```docker container ps```
+
+- Listar containers parados:   ```docker container ps```
+
+- Para remover o container  ```docker rm idContainer```
+
+- Listar images:  ```docker images```
+
+- Remover images:  ```docker rmi idImagem```
+
+- Endereço em docker: http://localhost:8080/alunos
+
+- Swagger Docker: http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+
 <h1>Conhecendo o Projeto Spring Data JPA na Prática </h1>
 <p> Sejam bem-vindos ao projeto de LAB <strong>Conhecendo o Projeto Spring Data JPA na Prática</strong> oferecido gratuitamente pela plataforma de cursos online <a href="https://dio.me/"><strong> Digital Innovation One</strong></a>.<br>
 
