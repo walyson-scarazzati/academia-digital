@@ -1,9 +1,9 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
+    url: jdbc:postgresql://db:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
     username: cami
     password: root
     driver-class-name: org.postgresql.Driver
