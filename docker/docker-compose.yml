@@ -19,7 +19,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: cami
-      POSTGRES_PASSWORD: root
+      POSTGRES_PASSWORD: 123456
       POSTGRES_DB: academia
     volumes:
       # Data

@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://db:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
+    url: jdbc:postgresql://db:5432/academia?useTimezone=true&createDatabaseIfNotExist=true&serverTimezone=UTC&useLegacyDate
     username: cami
-    password: root
+    password: 123456
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
@@ -22,7 +22,4 @@ logging:
       hibernate:
         type: trace
 
-springfox:
-  documentation:
-    swagger-ui:
-      enabled: true
+
