@@ -1,21 +1,30 @@
-- Rodar o comando: ```docker-compose up -d``` na pasta docker depois acessar http://localhost:8081/alunos
-- Adicionei devtools e swagger ao projeto: http://localhost:8081/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+<h1> Accessing the environment locally</h1>
 
-- Parar container: ```docker-compose down```
 
-- Listar containers em execução:  ```docker container ps```
+- Run the command ```docker-compose up -d``` in the docker folder and
 
-- Listar containers parados:   ```docker container ps```
+  ![image](https://github.com/user-attachments/assets/825eb954-986d-4dcb-9aa6-78f54b96b5e3)
 
-- Para remover o container  ```docker rm idContainer```
+- Run the command ```docker container ps```
 
-- Listar images:  ```docker images```
+  ![image](https://github.com/user-attachments/assets/b9a41f10-6876-44cc-8071-f4f9f935ece5)
 
-- Remover images:  ```docker rmi idImagem```
 
-- Endereço em docker: http://localhost:8080/alunos
+- Access http://localhost:8081/alunos
 
-- Swagger Docker: http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+![image](https://github.com/user-attachments/assets/03931bca-69ac-4938-ab88-e8e28af69318)
+
+- Add devtools and swagger to the project: http://localhost:8081/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+![image](https://github.com/user-attachments/assets/ed32da06-c045-4aba-b98e-2196e4676e62)
+
+
+<h1> Accessing the environment via Docker</h1>
+
+- Address in docker: http://localhost:8080/alunos
+  ![image](https://github.com/user-attachments/assets/6e3bac2a-d5cc-4fe7-a000-cb41606f210e)
+
+- Accessing Swagger Docker: http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+  ![image](https://github.com/user-attachments/assets/16b739ea-9461-4500-9ad5-234d0a177dc9)
 
 <h1>Conhecendo o Projeto Spring Data JPA na Prática </h1>
 <p> Sejam bem-vindos ao projeto de LAB <strong>Conhecendo o Projeto Spring Data JPA na Prática</strong> oferecido gratuitamente pela plataforma de cursos online <a href="https://dio.me/"><strong> Digital Innovation One</strong></a>.<br>
