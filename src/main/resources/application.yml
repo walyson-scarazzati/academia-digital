@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&createDatabaseIfNotExist=true&serverTimezone=UTC&useLegacyDate
+    url: jdbc:postgresql://localhost:5432/academia
     username: cami
     password: 123456
     driver-class-name: org.postgresql.Driver

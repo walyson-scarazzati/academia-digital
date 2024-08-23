@@ -1,4 +1,6 @@
-\c db_academia
+CREATE DATABASE IF NOT EXISTS academia;
+
+use academia;
 
 CREATE TABLE tb_alunos (
     id SERIAL NOT NULL PRIMARY KEY,
