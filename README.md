@@ -9,6 +9,8 @@
 
   ![image](https://github.com/user-attachments/assets/b9a41f10-6876-44cc-8071-f4f9f935ece5)
 
+- To run, just right-click on the project run as > Spring Boot app.
+<img src="https://github.com/walyson-scarazzati/Spotmusic/assets/53382989/3671ec7c-662b-4868-aa85-3ab1b619fa1b" alt="Descrição da Imagem" width="400" height="500" />
 
 - Access http://localhost:8081/alunos
 
